@@ -1,0 +1,171 @@
+body{
+  padding: 2%;
+}
+
+header{
+  background-image: url('../Images/cmu-desktop-wallpaper-gray.png');
+  background-color: #b2afe5;
+  background-repeat: round;
+  background-size: cover;
+}
+nav{
+  padding: 2%;
+}
+
+h1{
+  font-family: Arial, "Time New Roman", serif;
+  text-align: -webkit-center;
+  font-size: 250%;
+  font-variant-caps: all-small-caps;
+  color: #FFFFFF;
+  background-color: rgb(0 0 0 / 50%);
+}
+
+a{
+  color: #000000;
+  /* background: rgba(0, 0, 0, 0.5); */
+  text-align: center;
+}
+
+a.media{
+  color: rgb(0, 0, 255, 1);
+}
+
+h2{
+  font-variant-caps: inherit;
+  color: #000000;
+  font-size: 200%;
+}
+
+section{
+  background: #ffffff;
+  padding: 2%;
+}
+
+nav a{
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1%;
+  width: 15%;
+  text-decoration: none;
+  display: inline-block;
+  margin: 3.5%;
+  /* border: 2px solid; */
+  border-radius: 7px 7px 7px 7px;
+
+}
+
+main{
+  display: inline-flex;
+}
+
+.left{
+  background: white;
+  display: block;
+  background-color: #86a2ec;
+}
+
+a img{
+  border: 2px solid;
+  width: 60%;
+  height: 25%;
+  margin: 3.5%;
+}
+
+nav a:active{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+nav a:hover{
+  color: #110eaa;
+  font-size: 110%;
+  background: rgba(255, 255, 255, .8);
+}
+aside a{
+  display: block;
+}
+
+aside{
+  width: 30%;
+}
+
+table{
+  padding-right: 30%;
+  width: 90%;
+  height: 60%;
+  white-space: nowrap;
+  border-collapse: separate;
+}
+
+th{
+  border: #4666bb 2px solid;
+  padding: 2%;
+  background: #86a2ec;
+  color: #FFFFFF;
+  font-size: 130%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+th:first-child{
+  text-align: left;
+}
+
+tr > td{
+  text-align: left;
+}
+
+tr > td:first-child{
+  text-align: center;
+}
+
+td{
+  width: 10%;
+  height: 2%;
+  padding: 2%;
+  background: #86a2ec33;
+  opacity: 0.8;
+}
+
+td:hover{
+  background: rgba(218, 230, 162, 1);
+  opacity: 1;
+}
+
+footer{
+  background-color: #86a2ec;
+  text-align: center;
+}
+
+.heading_break{
+  border: 0;
+  border-top: 5px double #000000;
+}
+
+.main_heading{
+  font-family: Arial, "Times New Roman", serif;
+  text-align: -webkit-center;
+  font-size: 250%;
+  font-variant-caps: all-small-caps;
+  color: #000000;
+  background-color: rgb(0 0 0 / 0%);
+}
+
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    /* border: 1px dotted blue; */
+    text-align: center;
+}
+
+img.dp{
+  border-radius: 50%;
+}
+
+.resume_link{
+  color: rgba(0, 0, 255, 1);
+}
